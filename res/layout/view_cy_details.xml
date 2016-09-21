@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvPage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="111"
+                android:layout_marginRight="5dip"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:textSize="20sp"
+                android:text="At the heart of GitHub is an open source version control system (VCS) called Git*. Created by the same team that created Linux, Git is responsible for everything GitHub related that happens locally on your computer."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvPy"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:text="At the heart of GitHub is an open source version control system (VCS) called Git*. Created by the same team that created Linux, Git is responsible for everything GitHub related that happens locally on your computer."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvJs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:text="At the heart of GitHub is an open source version control system (VCS) called Git*. Created by the same team that created Linux, Git is responsible for everything GitHub related that happens locally on your computer."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvCc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:text="At the heart of GitHub is an open source version control system (VCS) called Git*. Created by the same team that created Linux, Git is responsible for everything GitHub related that happens locally on your computer."
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
